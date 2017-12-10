@@ -61,7 +61,7 @@ typings/
 dist
 
 #Cache directory
-cache
+.cache
 
 
 

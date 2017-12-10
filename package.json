@@ -2,5 +2,12 @@
   "name": "thyn",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development parcel index.html ",
+    "build": "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url /"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.1"
+  }
 }
