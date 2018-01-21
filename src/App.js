@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Icon } from './Icon';
 
 const appStyle = {
     display: 'flex',
@@ -23,6 +24,7 @@ export default class App extends Component {
     render(){
         return (
             <div style={appStyle}>
+                <Icon name="ei-eye" size="l" />
                 <Heading {...this.props}/>
             </div>
         );

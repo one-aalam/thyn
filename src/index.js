@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './App';
-import './App.css';
+import './App.scss';
 
 const root = document.getElementById('app');
 ReactDOM.render(<App framework="React" />, root);
