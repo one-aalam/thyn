@@ -5,7 +5,7 @@ import App from './App';
 import './App.css';
 
 const root = document.getElementById('app');
-ReactDOM.render(<App framework="Reactssss" />, root);
+ReactDOM.render(<App framework="React" />, root);
 
 if (module.hot) {
     module.hot.accept();
