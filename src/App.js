@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { Tweet } from './components/Tweet';
+
 const appStyle = {
     display: 'flex',
     flexDirection: 'column',
@@ -24,6 +26,7 @@ export default class App extends Component {
         return (
             <div style={appStyle}>
                 <Heading {...this.props}/>
+                <Tweet />
             </div>
         );
     }
